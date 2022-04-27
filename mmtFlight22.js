@@ -7,7 +7,7 @@ const getURL = ClientFunction(()=> window.location.href);
 fixture("Try MMT fixture")
         .page(URL)
 
-//trip_type=RoundWay, fare_type=Regular
+//trip_type=RoundWay, fare_type=armed force
  test("Test FlightField",async t=>{
             await t
                 .maximizeWindow()
